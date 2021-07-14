@@ -16,7 +16,7 @@ export default {
     return {
       greeting: "Welcome to Props",
       icecream: ["Chocolate", "Vanilla", "Strawberry", "Pistachio"],
-      buttonText: "Emit Event to bruh",
+      buttonText: "Emit Event from Child to Parent",
     };
   },
   components: {
