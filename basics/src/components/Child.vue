@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>{{ greeting }}</h1>
+    <h3>{{ greeting }}</h3>
     <ul>
       <li v-for="flavor in icecream" :key="flavor">{{ flavor }}</li>
     </ul>
